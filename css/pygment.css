@@ -1,0 +1,174 @@
+pre {
+    background: none repeat scroll 0 0 #181818;
+    color: #F8F8F8;
+    font-family: Consolas,Monaco,"Lucida Console";
+    padding: 16px;
+}
+pre code * {
+    font-family: Consolas,Monaco,"Lucida Console";
+}
+pre code .hll {
+    background-color: #FFFFCC;
+}
+pre code .c {
+    color: #5F5A60;
+    font-style: italic;
+}
+pre code .err {
+    border: medium none #B22518;
+}
+pre code .k {
+    color: #CDA869;
+}
+pre code .cm {
+    color: #5F5A60;
+    font-style: italic;
+}
+pre code .cp {
+    color: #5F5A60;
+}
+pre code .c1 {
+    color: #5F5A60;
+    font-style: italic;
+}
+pre code .cs {
+    color: #5F5A60;
+    font-style: italic;
+}
+pre code .gd {
+    background: none repeat scroll 0 0 #420E09;
+}
+pre code .ge {
+    font-style: italic;
+}
+pre code .gr {
+    background: none repeat scroll 0 0 #B22518;
+}
+pre code .gh {
+    color: #000080;
+    font-weight: bold;
+}
+pre code .gi {
+    background: none repeat scroll 0 0 #253B22;
+}
+pre code .gp {
+    font-weight: bold;
+}
+pre code .gs {
+    font-weight: bold;
+}
+pre code .gu {
+    color: #800080;
+    font-weight: bold;
+}
+pre code .kd {
+    color: #E9DF8F;
+}
+pre code .kp {
+    color: #9B703F;
+}
+pre code .na {
+    color: #F9EE98;
+}
+pre code .nb {
+    color: #CDA869;
+}
+pre code .nc {
+    color: #9B859D;
+    font-weight: bold;
+}
+pre code .no {
+    color: #9B859D;
+}
+pre code .nd {
+    color: #7587A6;
+}
+pre code .ni {
+    color: #CF6A4C;
+    font-weight: bold;
+}
+pre code .nf {
+    color: #9B703F;
+    font-weight: bold;
+}
+pre code .nn {
+    color: #9B859D;
+    font-weight: bold;
+}
+pre code .nt {
+    color: #CDA869;
+    font-weight: bold;
+}
+pre code .nv {
+    color: #7587A6;
+}
+pre code .ow {
+    color: #AA22FF;
+    font-weight: bold;
+}
+pre code .w {
+    color: #141414;
+}
+pre code .mf {
+    color: #CF6A4C;
+}
+pre code .mh {
+    color: #CF6A4C;
+}
+pre code .mi {
+    color: #CF6A4C;
+}
+pre code .mo {
+    color: #CF6A4C;
+}
+pre code .sb {
+    color: #8F9D6A;
+}
+pre code .sc {
+    color: #8F9D6A;
+}
+pre code .sd {
+    color: #8F9D6A;
+    font-style: italic;
+}
+pre code .s2 {
+    color: #8F9D6A;
+}
+pre code .se {
+    color: #F9EE98;
+    font-weight: bold;
+}
+pre code .sh {
+    color: #8F9D6A;
+}
+pre code .si {
+    color: #DAEFA3;
+    font-weight: bold;
+}
+pre code .sx {
+    color: #8F9D6A;
+}
+pre code .sr {
+    color: #E9C062;
+}
+pre code .s1 {
+    color: #8F9D6A;
+}
+pre code .ss {
+    color: #CF6A4C;
+}
+pre code .bp {
+    color: #00AAAA;
+}
+pre code .vc {
+    color: #7587A6;
+}
+pre code .vg {
+    color: #7587A6;
+}
+pre code .vi {
+    color: #7587A6;
+}
+pre code .il {
+    color: #009999;
+}

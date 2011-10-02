@@ -46,7 +46,7 @@
 
 	<script type="text/javascript">	
 			function onLinkedInLoad() {
-			  IN.API.Profile("2BqM11vaHA")
+			  IN.API.Profile(["2BqM11vaHA"])
 			    .fields(["id", "firstName", "lastName", "pictureUrl","headline"])
 			    .result(function(result) {
 			      profHTML = result.values[0];

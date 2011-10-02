@@ -40,38 +40,9 @@
 	
 	<script type="text/javascript" src="http://platform.linkedin.com/in.js">
 	   api_key: a34tcundsf9a
-	   onLoad: jsonf
 	   authorize: true
 	</script>
 
-	<script type="text/javascript">	
-			function onLinkedInLoad() {
-			  IN.API.Profile(["2BqM11vaHA"])
-			    .fields(["id", "firstName", "lastName", "pictureUrl","headline"])
-			    .result(function(result) {
-			      profHTML = result.values[0];
-			      profHTML = "<p><a href=\"" + profile.publicProfileUrl + "\">";
-			      profHTML += "<img class=img_border align=\"left\" src=\"" + profile.pictureUrl + "\"></a>";      
-			      profHTML += "<a href=\"" + profile.publicProfileUrl + "\">";
-			      profHTML += "<h2 class=myname>" + profile.firstName + " " + profile.lastName + "</a> </h2>";
-			      profHTML += "<span class=myheadline>" + profile.headline + "</span>";
-			      $("#profile").html(profHTML);
-			    });
-			}
-	</script>
-	
-	<script type="text/javascript" charset="utf-8">
-		
-		function jsonf(){
-		$.getJSON("http://api.linkedin.com/v1/people::(2BqM11vaHA):(first-name,connections)", function(data) {
-		
-		  alert(data);
-		}
-		  );
-		};
-	
-	</script>
-		
   </head>
   <body>
     <div id="container">

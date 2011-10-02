@@ -3,7 +3,12 @@ layout: post
 ---
 Just testing!
 
-<div id="profile"></div>
-
-<!--<script type="IN/FullMemberProfile" data-id="Zfzb87U1Tn" data-firstName="Ricardo" data-lastName="Quintas"></script>-->
+<script type="IN/MemberData" data-ids="Zfzb87U1Tn">
+	
+	Details for <?js= $("Zfzb87U1Tn").firstName ?>:
+	<?js if ($("Zfzb87U1Tn").pictureUrl) { ?>
+	  <img src="<?js= $("Zfzb87U1Tn").pictureUrl ?>"></img>
+	<?js } ?>
+	
+</script>
 

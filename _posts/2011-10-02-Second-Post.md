@@ -3,11 +3,4 @@ layout: post
 ---
 Just testing!
 
-<div id="profile"></div>
-
-<script type="in/Login">
-	IN.API.Profile("me")
-    .result(function(result) { 
-        $("#profile").html(JSON.stringify(result)) 
-    } )
-</script>
+<script type="IN/FullMemberProfile" data-id="http://pt.linkedin.com/in/rquintas" data-firstName="Ricardo" data-lastName="Quintas">

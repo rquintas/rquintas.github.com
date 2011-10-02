@@ -47,12 +47,16 @@
 	<script type="text/javascript" charset="utf-8">
 	
 		function test(){
-			$(document).ready( function(){
-		    
-			    $("#profile").html('<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/rquintas" data-format="inline"><\/script>');
-			    IN.parse(document.getElementById("profile"))
-			});	
+			
+			alert("test");
+		
 		}
+		
+		$(document).ready( function(){
+	    
+		    $("#profile").html('<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/rquintas" data-format="inline"><\/script>');
+		    IN.parse(document.getElementById("profile"))
+		});
 	</script>
 
   </head>

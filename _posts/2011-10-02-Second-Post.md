@@ -7,7 +7,7 @@ Just testing!
 
 <script type="text/javascript" src="http://platform.linkedin.com/in.js">
    api_key: a34tcundsf9a
-	onLoad: onLinkedInLoad
+   onLoad: onLinkedInLoad
    authorize: true
 </script>
 
@@ -16,7 +16,7 @@ Just testing!
 		  IN.API.Profile("Zfzb87U1Tn")
 		    .fields(["id", "firstName", "lastName", "pictureUrl","headline"])
 		    .result(function(result) {
-		      profile = result.values[0];
+		      profHTML = result.values[0];
 		      profHTML = "<p><a href=\"" + profile.publicProfileUrl + "\">";
 		      profHTML += "<img class=img_border align=\"left\" src=\"" + profile.pictureUrl + "\"></a>";      
 		      profHTML += "<a href=\"" + profile.publicProfileUrl + "\">";

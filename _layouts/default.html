@@ -40,7 +40,7 @@
 	
 	<script type="text/javascript" src="http://platform.linkedin.com/in.js">
 	   api_key: a34tcundsf9a
-	   onLoad: onLinkedInLoad
+	   onLoad: jsonf
 	   authorize: true
 	</script>
 
@@ -58,6 +58,18 @@
 			      $("#profile").html(profHTML);
 			    });
 			}
+	</script>
+	
+	<script type="text/javascript" charset="utf-8">
+		
+		function jsonf(){
+		$.getJSON("http://api.linkedin.com/v1/people::(2BqM11vaHA):(first-name,connections)", function(data) {
+		
+		  alert(data);
+		
+		  );
+		});
+	}
 	</script>
 		
   </head>

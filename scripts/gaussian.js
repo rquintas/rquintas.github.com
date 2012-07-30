@@ -242,8 +242,8 @@ window.onload = function(){
     var canvas = document.createElement('canvas');
  	var canvas2 = document.createElement('canvas');
 
-		gauss = new Gaussian(-4,3);
-		gauss2 = new Gaussian(3,1);
+		gauss = new Gaussian(-4,1.5);
+		gauss2 = new Gaussian(2,4);
 		gauss3 = gauss.join(gauss2);
 
 		gauss.plot(document.getElementById('myCanvas'),"green", 3)

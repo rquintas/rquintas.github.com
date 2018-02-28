@@ -8,7 +8,7 @@ plugins_dir: ./_plugins
 
 future:      true
 lsi:         false
-highlighter: true
+highlighter: false
 markdown:    kramdown
 permalink:   date
 

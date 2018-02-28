@@ -22,64 +22,36 @@
 
 	</script>
 	
-	<script src="scripts/gaussian.js" type="text/javascript"></script>
-	
 
   </head>
   <body>
     <div id="container">
-      <header id="header">
-        <h1>Ricardo Quintas</h1>
-      </header>
 
-	 <!-- <a href="cv.html">CV</a> -->
+        <p>Hi, I'm a <span class="name">Ricardo Quintas</span>, a Software Developer specializing in machine learning.</p>
 
-      <div id="content">
-        {{ content }}
-     
+        <div class="social-links">
 
-		{% if page.comments %}
-		<div id="disqus_thread"></div>
-		<script type="text/javascript">
-		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-		    var disqus_shortname = 'rquintas'; // required: replace example with your forum shortname
-		
-		    // The following are highly recommended additional parameters. Remove the slashes in front to use.
-		    var disqus_identifier = '{{post.id}}';
-		    var disqus_url = 'http://www.rquintas.net/{{page.url}}';
-		
-		    /* * * DON'T EDIT BELOW THIS LINE * * */
-		    (function() {
-		        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		    })();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-		{% endif %}
-		
-	 </div>
-	
-	
-      <aside>
-        <h2>About</h2>
-		<span class="quote">"By knowing things that exist, you can know that which does not exist." - Miyamoto Musashi</span>
-        <p>Software Developer</p>
-        <ol>
-            <li><a href="http://twitter.com/#!/xlife">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/rquintas">LinkedIn</a></li>
-            <li><a href="https://github.com/rquintas">GitHub</a></li>
-        </ol>
-        <!--<h2>Recent Posts</h2>
-        <ol>
-          {% for post in site.posts limit:10 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ol>
-        -->
-      </aside>
+	        <a class="link" href="http://twitter.com/#!/xlife">
+			<svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>           
+		</a>
+        	<a class="link" href="https://www.linkedin.com/in/rquintas">
+			<svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>       
+		</a>	
+        	<a class="link" href="https://github.com/rquintas">
+			<svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>       
+		</a>
+		<a class="link" href="https://kaggle.com/rquintas">
+			<svg class="icon icon-kaggle"><use xlink:href="#icon-kaggle"></use></svg>       
+		</a>
+
+
+
+	</div>
+
 	
     </div>
+    
+    {% include icons.html %}
+
   </body>
 </html>

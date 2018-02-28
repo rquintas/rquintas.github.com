@@ -4,20 +4,13 @@ base-url:    /
 
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
+plugins_dir: ./_plugins
 
 future:      true
 lsi:         false
-highlighter:    true
+highlighter: true
 markdown:    kramdown
 permalink:   date
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
